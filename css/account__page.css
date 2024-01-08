@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  @import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:regular,700,900);
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+  font-family: "", serif;
+  font-weight: 400;
+  background-color: #010101;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header .nav {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.header .nav .nav__left a {
+  font-family: "Cinzel Decorative";
+  color: #FFFCFC;
+  font-size: 62px;
+  transition: 0.35s;
+}
+.header .nav .nav__left a:hover {
+  color: #8a3737;
+}
+.header .nav .nav__right {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 70px;
+}
+.header .nav .nav__right a {
+  transition: 0.35s;
+}
+.header .nav .nav__right a:nth-child(2) {
+  color: #8A3737;
+}
+.header .nav .nav__right a:hover {
+  color: #8a3737;
+}
+
+.hero .container__hero {
+  padding-bottom: 80px;
+}
+.hero .container__hero .user__hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.hero .container__hero .user__hero p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 35px;
+}
+.hero .container__hero .info__hero h3 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+.hero .container__hero .info__hero p {
+  color: #c2c2c2;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.hero .container__hero .info__hero .userinfo__hero {
+  margin-bottom: 25px;
+}
+.hero .container__hero .info__hero .categories__hero {
+  margin-bottom: 25px;
+}
+.hero .container__hero .info__hero .categories__hero h3 {
+  margin-bottom: 8px;
+}
+.hero .container__hero .info__hero .categories__hero .categories__hero_tags {
+  display: flex;
+  gap: 8px;
+}
+.hero .container__hero .info__hero .categories__hero .categories__hero_tags a {
+  padding: 8px 23px;
+  color: #C8C3C3;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 10px;
+  background: linear-gradient(93deg, #171313 -19.18%, rgba(91, 91, 91, 0.65) 49.36%, rgba(57, 57, 57, 0.31) 107.8%);
+  transition: 0.35s;
+}
+.hero .container__hero .info__hero .categories__hero .categories__hero_tags a:hover {
+  color: #8a3737;
+}
+.hero .container__hero .info__hero .reviews__hero h3 {
+  padding-bottom: 26px;
+}
+.hero .container__hero .info__hero .reviews__hero p {
+  padding-top: 8px;
+  padding-bottom: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.hero .container__hero .info__hero .reviews__hero span {
+  color: #cdcdcd;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero .container__hero .info__hero .reviews__hero .review__hero {
+  padding-bottom: 26px;
+}
+
+footer p {
+  padding-bottom: 25px;
+  color: #444;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=account__page.css.map */

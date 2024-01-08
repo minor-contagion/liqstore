@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+	@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:regular,700,900);
+	@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+    font-family: "", serif;
+    font-weight: 400;
+	background-color: #010101;
+	background-image: url("../img/back.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 900px;
+}
+    
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+	max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+	.nav{
+		padding: 15px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		a {
+			transition: 0.35s;
+		}
+		a:hover {
+			color: #8a3737;
+		}
+		.nav__left{
+			font-family: "Cinzel Decorative";
+			color: #FFFCFC;
+			font-size: 62px;
+		}
+		.nav__right {
+			color: #FFF;
+			font-family: Roboto;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			display: flex;
+			gap: 70px;
+		}
+	}
+}
+
+main {
+	.hero {
+		margin-bottom: 188px;
+			h1 {
+				color: #FFF;
+				font-family: Cinzel Decorative;
+				font-size: 114px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 120%; /* 149.212px */
+				letter-spacing: 9px;
+				padding: 90px 0 22px;	
+			}
+			p {
+				color: #FFF;
+				font-family: Roboto;
+				font-size: 22px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 120%; /* 30.79px */
+				letter-spacing: 2px;
+				max-width: 660px;
+				padding-bottom: 54px;
+			}
+			a {
+				color: #FFF;
+				font-family: Roboto;
+				font-size: 22px;
+				font-style: normal;
+				font-weight: 400;
+				padding: 14px 45px;
+				border-radius: 20px;
+				border: 1px solid #D9D9D9;
+				transition: 0.35s;
+			}
+			a:hover {
+				color: #8a3737;
+				border: 1px solid #8a3737;
+			}
+		}
+	.collection {
+		padding-top: 100px;
+		padding-bottom: 80px;
+		.collection__info {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			h2 {
+				color: #FFF;
+				font-family: "Cinzel Decorative";
+				font-size: 62px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 120%; /* 85.264px */
+				letter-spacing: 5px;
+				padding-bottom: 20px;
+			}
+			img {
+				height: 3px;
+				margin-bottom: 60px;
+			}
+			p {
+				color: #FFF;
+				text-align: center;
+				font-family: Roboto;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+			}
+		}
+		.collection__cards {
+			padding: 50px 110px 0; 
+			display: flex;
+			gap: 120px;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			.card {
+				width: 380px;
+				height: 480px;
+				border-radius: 22.5px;
+				background: #232323;
+			}
+			.card1 {
+				position: relative;
+				a {
+					img {
+					padding: 24px 15px 15px;
+					border-radius: 22.5px;
+					background: linear-gradient(#D9D9D900, #555050a6, #D9D9D900);
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					margin-bottom: 22.5px;
+					margin-right: 22.5px;
+				}
+				}
+			}
+			.card2 {
+				margin-top: 380px;
+				position: relative;
+				a {
+					img {
+					padding: 24px 15px 15px;
+					border-radius: 22.5px;
+					background: linear-gradient(#D9D9D900, #555050a6, #D9D9D900);
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					margin-bottom: 22.5px;
+					margin-right: 22.5px;
+				}
+				}
+			}
+			.card3 {
+				margin-top: -240px;
+				position: relative;
+				a {
+					img {
+					padding: 24px 15px 15px;
+					border-radius: 22.5px;
+					background: linear-gradient(#D9D9D900, #555050a6, #D9D9D900);
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					margin-bottom: 22.5px;
+					margin-right: 22.5px;
+				}
+				}
+			}
+			.card__info {
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+				gap: 5px;
+				img {
+					border-radius: 22.5px 22.5px 0 0;
+					height: 275px;
+				}
+				.card__name {
+					padding: 18px 0 25px 0;
+					color: #FFF;
+					text-align: center;
+					font-family: Roboto;
+					font-size: 36px;
+					font-style: normal;
+					font-weight: 300;
+					span {
+						color: #747474;
+						font-size: 24px;
+					}
+				}
+				.card__price {
+					color: #FFF;
+					font-family: Roboto;
+					font-size: 36px;
+					font-style: normal;
+					font-weight: 300;
+					line-height: normal;
+				}
+			}
+		}
+	}
+	.contacts {
+		padding-top: 80px;
+		padding-bottom: 125px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		.contacts__head {
+			h2 {
+				color: #FFF;
+				font-family: "Cinzel Decorative";
+				font-size: 62px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 120%; /* 85.264px */
+				letter-spacing: 5px;
+				padding-bottom: 20px;
+			}
+			img {
+				height: 3px;
+			}
+		}
+		.contacts__info {
+			padding-top: 90px;
+			display: flex;
+			flex-direction: column;
+			gap: 90px;
+			p {
+				color: #FFF;
+				text-align: center;
+				font-family: Roboto;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+			}
+			.contacts__info_text1 {
+				left: 0;
+				width: 600px;
+			}
+			.contacts__info_text2 {
+				margin-left: auto; 
+				margin-right: 0;
+				width: 600px;
+			}
+			.contacts__info_text3 {
+				align-items: center;
+			}
+		}
+	}
+}
+
+footer {
+	p {
+		padding-bottom: 25px;
+		color: #444;
+		text-align: center;
+		font-family: Roboto;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}

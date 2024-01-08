@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  @import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:regular,700,900);
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+  font-family: "", serif;
+  font-weight: 400;
+  background-color: #010101;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  margin-bottom: 75px;
+}
+.header .nav {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav a {
+  transition: 0.35s;
+}
+.header .nav a:hover {
+  color: #8a3737;
+}
+.header .nav .nav__left {
+  font-family: "Cinzel Decorative";
+  color: #FFFCFC;
+  font-size: 62px;
+}
+.header .nav .nav__right {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 70px;
+}
+
+.hero {
+  padding-bottom: 80px;
+}
+.hero h2 {
+  color: #FFF;
+  font-family: "Cinzel Decorative";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 85.264px */
+  letter-spacing: 5px;
+  padding-bottom: 24px;
+}
+.hero h3 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.hero h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 6px;
+}
+.hero p {
+  color: #c2c2c2;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 18px;
+}
+.hero ul {
+  padding-bottom: 18px;
+}
+.hero ul li {
+  color: #c2c2c2;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.75px;
+}
+
+footer p {
+  padding-bottom: 25px;
+  color: #444;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=about__.css.map */
